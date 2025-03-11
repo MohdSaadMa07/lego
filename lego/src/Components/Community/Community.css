@@ -1,0 +1,70 @@
+.community {
+    text-align: center;
+    padding: 80px 20px;
+    background: #f4f4f4;
+  }
+  
+  .community h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .community p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .community-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .community-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .community-card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .community-card h3 {
+    font-size: 1.5rem;
+    color: #222;
+    margin: 15px 0 10px;
+  }
+  
+  .community-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .join-btn {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .join-btn:hover {
+    background-color: #d40000;
+    transform: scale(1.05);
+  }
+  
