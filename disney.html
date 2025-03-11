@@ -46,7 +46,9 @@
                 Themes
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">LEGO City</a></li>
+                <li>
+                  <a class="dropdown-item" href="disney.html">LEGO Disney</a>
+                </li>
                 <li><a class="dropdown-item" href="#">LEGO Star Wars</a></li>
                 <li><a class="dropdown-item" href="#">LEGO Technic</a></li>
                 <li><a class="dropdown-item" href="#">LEGO Harry Potter</a></li>
@@ -63,12 +65,20 @@
                 Age
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="">4+ </a></li>
                 <li>
-                  <a class="dropdown-item" href="#">7-12 </a>
+                  <a class="dropdown-item" href="/age_4.html"
+                    >4+ (Easy Build)</a
+                  >
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">13+ </a>
+                  <a class="dropdown-item" href="age_7.html"
+                    >7-12 (Intermediate)</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="age_13.html"
+                    >13+ (Advanced & Collectibles)</a
+                  >
                 </li>
               </ul>
             </li>
@@ -87,22 +97,12 @@
         </div>
       </div>
     </nav>
-    <h2
-      style="
-        text-align: center;
-        margin-top: 20px;
-        font-size: 28px;
-        font-weight: bold;
-      "
-    >
-      LEGO Sets for Ages 4+
-    </h2>
+    <h2 class="bold">Disney Legos</h2>
     <div class="card-container">
       <div class="card">
         <a href="#" class="card-content">
           <img src="/Images/1.1.webp" alt="Order Online" />
           <h3>Lilo and Stitch Beach House</h3>
-          <p>$34.33</p>
         </a>
         <button class="add-to-bag">
           <span class="icon">👜</span> Add to Bag
@@ -116,7 +116,6 @@
         >
           <img src="/Images/2.1.webp" alt="Dining" />
           <h3>Heihei</h3>
-          <p>$33.44</p>
         </a>
         <button class="add-to-bag">
           <span class="icon">👜</span> Add to Bag
@@ -128,7 +127,6 @@
           <img src="/Images/3.1.webp" alt="Live Events" />
           <h3>Maleficent's and Cruella De Vil's</h3>
         </a>
-        <p>$32.43</p>
         <button class="add-to-bag">
           <span class="icon">👜</span> Add to Bag
         </button>
@@ -237,7 +235,10 @@
         padding: 20px;
         flex-wrap: wrap;
       }
-
+      .bold {
+        display: flex;
+        justify-content: center;
+      }
       .card {
         width: 400px;
         border-radius: 15px;
