@@ -5,6 +5,10 @@
     background-color: #f4f4f4;
     text-align: center;
     scroll-behavior: smooth;
+    background-image: url('src\assets\colorful-lego-chaos-stockcake.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   /* Header */

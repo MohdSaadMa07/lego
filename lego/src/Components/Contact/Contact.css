@@ -2,6 +2,10 @@
     padding: 60px 10%;
     text-align: center;
     background-color: #f8f8f8;
+    background-image: url('/src/assets/contact-bg.jpg'); /* Update with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
   
   .contact-section h2 {
