@@ -1,0 +1,73 @@
+/* General Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+  
+  /* Logo Styling */
+  .logo {
+    width: 120px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logo:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Navbar Links */
+  .feature {
+    display: flex;
+    gap: 80px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Ensure the feature list stays aligned */
+  .navbar .feature {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centers the links */
+  }
+  
+  /* Feature Items */
+  .feature li {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  /* Underline Effect */
+  .feature li::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: red;
+    left: 50%;
+    bottom: -5px;
+    transition: all 0.3s ease-in-out;
+    transform: translateX(-50%);
+  }
+  
+  .feature li:hover {
+    color: red;
+  }
+  
+  .feature li:hover::after {
+    width: 100%;
+  }
+  
+
+  
